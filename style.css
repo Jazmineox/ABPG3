@@ -1,6 +1,4 @@
-body {
-  font-family:sans-serif;
-}
+
 
 #navbar {
     position: sticky;
@@ -8,6 +6,54 @@ body {
     z-index: 10;
 }
 
-.navbar {
-  background-color: blue;
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 100%;
+}
+
+#title 
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+#descript
+{
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron 
+{
+  padding: 50px;
+  text-align: center;
+  background-color: #478ac9;
+  font-weight: bold;
+  color: white;
+}
+
+.details 
+{
+text-align: center;
+font-weight: bold;
+}
+
+#button 
+{
+  margin: 0;
+  position:relative;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  -ms-transform: translateY(-50);
+  transform: translateY(-50);
+}
+
+.subtitles
+{
+  color: #478ac9;
 }
